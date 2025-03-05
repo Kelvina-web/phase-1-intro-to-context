@@ -1,4 +1,5 @@
 require ( './helpers.js' );
+const { createEmployeeRecord, createEmployeeRecords, createTimeInEvent, createTimeOutEvent, hoursWorkedOnDate, wagesEarnedOnDate, allWagesFor, calculatePayroll } = require('../payroll');
 
 describe("The payroll system", function () {
   describe("populates a record from an Array", function () {
